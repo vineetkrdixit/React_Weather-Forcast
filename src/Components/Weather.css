@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  align-items: center;
+  opacity: 70%;
+  height: 20rem;
+  width: 30rem;
+  border-radius: 20px;
+  padding-top: 1rem;
+}
+.fullBody {
+  height: 100vh;
+  background-image: url(../Components/assests/images/weather.jpg);
+  background-size: cover;
+  padding: 60px;
+}
+.Input-Wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.Input-Wrapper input {
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  margin-bottom: 1rem;
+}
+.resultBody {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+}
+.stateBody {
+  margin-bottom: 1rem;
+}
+.tempbody {
+  display: flex;
+  flex-direction: row;
+}
+.min-max {
+  display: flex;
+  flex-direction: row;
+}
+h6 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+.humidity {
+  margin-bottom: 1rem;
+}
